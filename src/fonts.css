@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Right Grotesk";
+    src: url("./assets/fonts/PPRightGrotesk-Medium.woff2") format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Right Grotesk";
+    src: url("./assets/fonts/PPRightGrotesk-MediumItalic.woff2") format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Right Grotesk";
+    src: url("./assets/fonts/PPRightGrotesk-Bold.woff2") format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Right Grotesk";
+    src: url("./assets/fonts/PPRightGrotesk-BoldItalic.woff2") format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Right Grotesk Text";
+    src: url("./assets/fonts/PPRightGroteskText-Regular.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Right Grotesk Wide";
+    src: url("./assets/fonts/PPRightGrotesk-WideMedium.woff2") format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+/* ----------- */
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("./assets/fonts/PPNeueMontreal-Regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("./assets/fonts/PPNeueMontreal-Italic.woff2") format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("./assets/fonts/PPNeueMontreal-Medium.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("./assets/fonts/PPNeueMontreal-Bold.woff2") format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("./assets/fonts/PPNeueMontreal-Book.woff2") format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.font-wide {
+    font-family: "Right Grotesk Wide";
+}
+
+
+
+/* ------------- */
+
+@font-face {
+    font-family: "Mori";
+    src: url("./assets/fonts/PPMori-Extralight.woff2") format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mori";
+    src: url("./assets/fonts/PPMori-Regular.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mori";
+    src: url("./assets/fonts/PPMori-SemiBold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mori";
+    src: url("./assets/fonts/PPMori-ExtraBold.woff2") format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
