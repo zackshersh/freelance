@@ -1,12 +1,10 @@
 import React from 'react';
 
 function NavOption({index, text, wide, selected, setSelected}){
+
     return (
-        <div
-            onMouseDown={() => {
-                
-            }}
-            className={`${wide ? "w-2/3" : "w-1/3"} text-lg ${selected == index ? "border-b-2" : ""}`}>{text}</div>
+
+        <div onMouseDown={() => {setSelected(index)}} className={`${wide ? "w-2/3" : "w-1/3"} ${selected == index ? "border-b-4 border-[rgba(0,0,255,0.2)] text-black" : "border-b-[1px] text-neutral-600"} ${index == 0 ? "mr-5" : "mr-0"} transition-colors text-2xl`}>{text}</div>
     )
 }
 

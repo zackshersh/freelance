@@ -11,6 +11,9 @@ function App() {
         <div className="App min-h-screen p-7">
             <TitleCard />
             <MiniNav index={subpage} setIndex={setSubpage}/>
+            {/* { subpage == 0 ?
+            
+        } */}
         </div>
     );
 }
