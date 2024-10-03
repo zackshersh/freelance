@@ -2,6 +2,8 @@ import { useState } from "react";
 import TitleCard from "./components/TitleCard";
 import MiniNav from "./components/MiniNav";
 
+import TitleCard2 from "./components/TitleCard2";
+
 
 function App() {
 
@@ -9,11 +11,14 @@ function App() {
 
     return (
         <div className="App min-h-screen p-7">
-            <TitleCard />
-            <MiniNav index={subpage} setIndex={setSubpage}/>
-            {/* { subpage == 0 ?
-            
-        } */}
+            <TitleCard2 />
+
+            <div className="flex">
+                <MiniNav index={subpage} setIndex={setSubpage}/>
+                <main>
+
+                </main>
+            </div>
         </div>
     );
 }
