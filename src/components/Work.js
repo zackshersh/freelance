@@ -14,7 +14,7 @@ function WorkBlock({index}){
     }
     console.log(data);
     return (
-        <div onMouseDown={handleMouseDown} className='my-3'>
+        <div onMouseDown={handleMouseDown} className='my-8'>
             <img src={"./media/" + data.thumbnail} />
             <div className='mt-2'>
                 <p>{data.medium}</p>
@@ -27,7 +27,10 @@ function WorkBlock({index}){
 function Work(props) {
     return (
         <div>
-            <WorkBlock index={0} />
+            {workData.map((proj,i) =>{
+                return (<WorkBlock index={i} />)
+            })}
+            
         </div>
     );
 }

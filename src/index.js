@@ -25,6 +25,11 @@ const router = createBrowserRouter([
             {
                 path: "rise-study",
                 element: <ProjectPage index={0} />
+            },
+            {
+                path: "bhs",
+                element: <ProjectPage index={1} />
+
             }
         ]
     }

@@ -4,9 +4,50 @@
         "medium": "Motion Graphics & Animation",
         "client": "UNC School of Medicine",
         "thumbnail": "rise-thumbnail.jpg",
+        "description": "I was hired by the Primary Investigator of the RISE Study to create an informational recruitment video for parents interested in enrolling in the study. RISE is a partnership between the Center for Child and Family Health and the University of North Carolina at Chapel Hill. I was tasked with a short animation that would communicate both what the study entails and the benefits it offers for participants.",
+        "tags": ["Motion Graphics", "After Effects", "Informational"],
         "path": "/rise-study",
         "content": [
-            ""
+            {
+                "type": "video",
+                "path": "RISE-clip1.webm"
+            },
+            {
+                "type": "video",
+                "path": "RISE-clip2.webm"
+            },
+            {
+                "type": "video",
+                "path": "RISE-clip3.webm"
+            }
+        ]
+    },
+    {
+        "title": "Therapy Practice Website",
+        "client": "Behavioral Health Solutions",
+        "medium": "Motion Graphics & Animation",
+        "thumbnail": "bhs-mockup.jpg",
+        "description": "Behavioral Health Solutions is a Durham, NC based therapy practice that has provided mental health services for 20+ years. I was hired to design a comprehensive website from the ground up",
+        "tags": ["Website Design", "React.js"],
+        "path": "/bhs", 
+        "content": [
+            {
+                "type": "image",
+                "path": "bhs-2.jpg"
+            },
+            {
+                "type": "image",
+                "path": "bhs-1.jpg"
+            },
+            {
+                "type": "image",
+                "path": "bhs-3.jpg"
+            },
+            {
+                "type": "image",
+                "path": "bhs-0.jpg"
+            }
         ]
     }
+
 ]
