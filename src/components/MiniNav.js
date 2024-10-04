@@ -4,13 +4,14 @@ function NavOption({index, text, wide, selected, setSelected}){
 
     return (
 
-        <div onMouseDown={() => {setSelected(index)}} className={` ${selected == index ? " text-black" : "text-neutral-600"} ${index == 0 ? "mr-5" : "mr-0"} transition-colors text-xl`}>{text}</div>
+        <a className={` transition-colors text-xl block`}>{text}</a>
     )
 }
 
 function MiniNav({index, setIndex}) {
     return (
-        <div className='mt-3 w-[200px]'>
+        <div className='mt-3 w-[250px]'>
+            <h3 className='text-xl mb-6 font-bold'>Zack Hersh</h3>
             <NavOption index={0} selected={index} setSelected={setIndex} text={"Work"} wide={true} />
             <NavOption index={1} selected={index} setSelected={setIndex} text={"About Me"} wide={false} />
         </div>
