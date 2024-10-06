@@ -30,6 +30,14 @@ const router = createBrowserRouter([
                 path: "bhs",
                 element: <ProjectPage index={1} />
 
+            },
+            {
+                path: "carrboro-farmers-market",
+                element: <ProjectPage index={2} />
+            },
+            {
+                path: "bottle-theory",
+                element: <ProjectPage index={3} />
             }
         ]
     }

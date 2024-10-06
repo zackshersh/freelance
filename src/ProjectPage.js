@@ -28,7 +28,9 @@ function ProjectPage({index}) {
                     break;
                 case "image":
                     arr.push(
-                        <img src={elem.path} />
+                        <div className='w-full flex justify-center'>
+                            <img className='mt-3 max-h-[80vh]' src={"./media/" + elem.path} />
+                        </div>
                     )
             }
             
@@ -49,8 +51,8 @@ function ProjectPage({index}) {
             <h1 className='text-xl mt-8 font-bold'>{data.title}</h1>
             <h1 className='text'>{data.client}</h1>
             <section className='mt-3 pt-4 border-t-2 flex justify-between'>
-                <p className='sm:w-2/3 leading-snug text-[0.96rem]'>{data.description}</p>
-                <div className='pl-4 hidden sm:block'>
+                <p className='md:w-2/3 leading-snug text-[0.96rem]'>{data.description}</p>
+                <div className='pl-4 hidden md:block'>
                     {generateTagElements()}
                 </div>
             </section>

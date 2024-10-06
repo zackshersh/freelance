@@ -5,8 +5,9 @@ import MiniNav from '../components/MiniNav';
 
 function Root(props) {
     return (
-        <div className="sm:flex p-7">
+        <div className="sm:flex p-7 relative ">
             <MiniNav />
+            <ScrollRestoration />
             <main>
                 <Outlet /> 
             </main>

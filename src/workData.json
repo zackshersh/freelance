@@ -5,7 +5,7 @@
         "client": "UNC School of Medicine",
         "thumbnail": "rise-thumbnail.jpg",
         "description": "I was hired by the Primary Investigator of the RISE Study to create an informational recruitment video for parents interested in enrolling in the study. RISE is a partnership between the Center for Child and Family Health and the University of North Carolina at Chapel Hill. I was tasked with a short animation that would communicate both what the study entails and the benefits it offers for participants.",
-        "tags": ["Motion Graphics", "After Effects", "Informational"],
+        "tags": ["Motion Graphics", "Adobe After Effects", "Informational"],
         "path": "/rise-study",
         "content": [
             {
@@ -25,28 +25,71 @@
     {
         "title": "Therapy Practice Website",
         "client": "Behavioral Health Solutions",
-        "medium": "Motion Graphics & Animation",
+        "medium": "Web Design",
         "thumbnail": "bhs-mockup.jpg",
-        "description": "Behavioral Health Solutions is a Durham, NC based therapy practice that has provided mental health services for 20+ years. I was hired to design a comprehensive website from the ground up",
+        "description": "Behavioral Health Solutions is a Durham, NC based therapy practice that has provided mental health services for 20+ years. I was hired to design a comprehensive website for the practice. This process included coming up with a visual style that was representative of the practice's professional and effective ethos. An additional task was implementing a form system that the could be used to streamline the new client intake process.",
         "tags": ["Website Design", "React.js"],
         "path": "/bhs", 
         "content": [
             {
                 "type": "image",
-                "path": "bhs-2.jpg"
+                "path": "bhs-2.jpeg"
             },
             {
                 "type": "image",
-                "path": "bhs-1.jpg"
+                "path": "bhs-1.jpeg"
             },
             {
                 "type": "image",
-                "path": "bhs-3.jpg"
+                "path": "bhs-3.jpeg"
             },
             {
                 "type": "image",
-                "path": "bhs-0.jpg"
+                "path": "bhs-0.jpeg"
             }
+        ]
+    },
+    {
+        "title": "Carrboro Farmer's Market Poster",
+        "client": "Class Project",
+        "medium": "Graphic Design",
+        "thumbnail": "farmersmarket-thumbnail.jpg",
+        "description": "A project in one of my graphic design classes at UNC Chapel Hill, tasked us with designing two posters for a local event. I chose to do the Carrboro Farmer's Market. I wanted to create designs that would capture the organic, patchwork vibe of the farmer's market, while still having a bold and eye-catching style. The final designs are digital collages that play with scale and perspective in order to draw the viewer's eye into the poster. The different photographic elements were made monochromatic in order to enhance the bold style and the visual clarity of the design.",
+        "tags": ["Graphic Design", "Adobe Photoshop", "Typography"],
+        "path": "/carrboro-farmers-market",
+        "content": [
+            {
+                "type": "image",
+                "path": "farmersmarket-a.jpg"
+            },
+            {
+                "type": "image",
+                "path": "farmersmarket-b.jpg"
+            }
+        ]
+    },
+    {
+        "title": "Promotional Animation",
+        "client": "Bottle Theory",
+        "medium": "Motion Graphics & Animation",
+        "thumbnail": "bottletheory-thumbnail.jpg",
+        "description": "A project in one of my graphic design classes at UNC Chapel Hill, tasked us with designing two posters for a local event. I chose to do the Carrboro Farmer's Market. I wanted to create designs that would capture the organic, patchwork vibe of the farmer's market, while still having a bold and eye-catching style. The final designs are digital collages that play with scale and perspective in order to draw the viewer's eye into the poster. The different photographic elements were made monochromatic in order to enhance the bold style and the visual clarity of the design.",
+        "tags": ["Motion Graphics", "Adobe After Effects", "Typography"],
+        "path": "/bottle-theory",
+        "content": [
+            {
+                "type": "video",
+                "path": "bottletheory-logo.webm"
+            },
+            {
+                "type": "video",
+                "path": "bottletheory-clip1.webm"
+            },
+            {
+                "type": "video",
+                "path": "bottletheory-clip2.webm"
+            }
+
         ]
     }
 

@@ -27,6 +27,9 @@ function WorkBlock({index}){
 function Work(props) {
     return (
         <div>
+            <p style={{
+                transform: "translateY(-40px)"
+            }} id="work-anchor"></p>
             {workData.map((proj,i) =>{
                 return (<WorkBlock index={i} />)
             })}
