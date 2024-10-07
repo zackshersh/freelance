@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/freelance/static/css/main.b65bad5f.css",
+    "main.js": "/freelance/static/js/main.0c59465b.js",
+    "static/media/PPNeueMontreal-Bold.woff2": "/freelance/static/media/PPNeueMontreal-Bold.e056b46aa1e80becbe2c.woff2",
+    "static/media/PPNeueMontreal-Medium.woff2": "/freelance/static/media/PPNeueMontreal-Medium.4105b1cc8dd5fc295141.woff2",
+    "static/media/PPRightGrotesk-MediumItalic.woff2": "/freelance/static/media/PPRightGrotesk-MediumItalic.f12aefdf86af693c00fe.woff2",
+    "static/media/PPNeueMontreal-Book.woff2": "/freelance/static/media/PPNeueMontreal-Book.0ce3b95c3d3cd61d2489.woff2",
+    "static/media/PPRightGrotesk-BoldItalic.woff2": "/freelance/static/media/PPRightGrotesk-BoldItalic.3eb5d6aad36c7bd5462f.woff2",
+    "static/media/PPNeueMontreal-Italic.woff2": "/freelance/static/media/PPNeueMontreal-Italic.07d19b03900783cb1440.woff2",
+    "static/media/PPRightGrotesk-WideMedium.woff2": "/freelance/static/media/PPRightGrotesk-WideMedium.ad22f74b70f9a33c2e1f.woff2",
+    "static/media/PPNeueMontreal-Regular.woff2": "/freelance/static/media/PPNeueMontreal-Regular.e975bf8371aec1efabce.woff2",
+    "static/media/PPRightGrotesk-Medium.woff2": "/freelance/static/media/PPRightGrotesk-Medium.52c2ea2964afc8f03d34.woff2",
+    "static/media/PPRightGrotesk-Bold.woff2": "/freelance/static/media/PPRightGrotesk-Bold.e893f60e30623c3f4019.woff2",
+    "static/media/PPRightGroteskText-Regular.woff2": "/freelance/static/media/PPRightGroteskText-Regular.5e6cf347a04aaad010b3.woff2",
+    "static/media/PPMori-ExtraBold.woff2": "/freelance/static/media/PPMori-ExtraBold.e0b8381a406985894b70.woff2",
+    "static/media/PPMori-SemiBold.woff2": "/freelance/static/media/PPMori-SemiBold.7106ecdcd29b1d0066e9.woff2",
+    "static/media/PPMori-Regular.woff2": "/freelance/static/media/PPMori-Regular.6bb61d596e0dba2493a1.woff2",
+    "static/media/PPMori-Extralight.woff2": "/freelance/static/media/PPMori-Extralight.d7a08806ac933e629c76.woff2",
+    "index.html": "/freelance/index.html",
+    "main.b65bad5f.css.map": "/freelance/static/css/main.b65bad5f.css.map",
+    "main.0c59465b.js.map": "/freelance/static/js/main.0c59465b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b65bad5f.css",
+    "static/js/main.0c59465b.js"
+  ]
+}
