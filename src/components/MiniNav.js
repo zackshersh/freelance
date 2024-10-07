@@ -44,6 +44,7 @@ function MiniNav({index, setIndex}) {
             <div className='flex sm:flex-col mb-4 mt-1 sm:mt-3'>
                 <NavOption index={0} selected={index} setSelected={setIndex} text={"Work"} scrollTo={"work-anchor"} wide={true} />
                 <NavOption index={1} selected={index} setSelected={setIndex} text={"About Me"} scrollTo={"about-anchor"} wide={false} />
+                <NavOption index={2} selected={index} setSelected={setIndex} text={"Contact"} scrollTo={"contact-anchor"} wide={false} />
             </div>
         </nav>
         </div>

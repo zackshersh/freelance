@@ -8,7 +8,7 @@ function Root(props) {
         <div className="sm:flex p-7 relative ">
             <MiniNav />
             <ScrollRestoration />
-            <main>
+            <main className=''>
                 <Outlet /> 
             </main>
         </div>

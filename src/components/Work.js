@@ -14,8 +14,8 @@ function WorkBlock({index}){
     }
     console.log(data);
     return (
-        <div onMouseDown={handleMouseDown} className='my-8'>
-            <img src={"./media/" + data.thumbnail} />
+        <div onMouseDown={handleMouseDown} className='my-8 cursor-pointer'>
+            <img className='w-full hover:opacity-80 hover:scale-[0.99] transition-all' src={"./media/" + data.thumbnail} />
             <div className='mt-2'>
                 <p>{data.medium}</p>
                 <h3 className='text-xl mt-[0px] leading-none'> <b className='font-bold'>{data.client}</b> • {data.title}</h3>
