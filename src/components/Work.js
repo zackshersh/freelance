@@ -10,9 +10,8 @@ function WorkBlock({index}){
 
     const handleMouseDown = () => {
         navigate(data.path);
-        console.log("ges")
     }
-    console.log(data);
+
     return (
         <div onMouseDown={handleMouseDown} className='my-8 cursor-pointer'>
             <img className='w-full hover:opacity-80 hover:scale-[0.99] transition-all' src={"./media/" + data.thumbnail} />
