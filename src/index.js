@@ -6,6 +6,7 @@ import App from './App';
 
 import { 
     createBrowserRouter,
+    createHashRouter,
     RouterProvider
 } from "react-router-dom";
 import HomePage from './HomePage';
@@ -13,7 +14,7 @@ import Root from "./routes/Root.js";
 import ProjectPage from './ProjectPage.js';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <Root />,
